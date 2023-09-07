@@ -1,0 +1,345 @@
+.client-view{
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    flex:1;
+    display: flex;
+    padding: 0.5rem;
+}
+.nav-body{
+   flex: 0.18;
+   background-color: #121212;
+   border-radius: 10px;
+   margin: 0.3rem;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+   color: white;
+}
+.main-body{
+    flex: 0.82;
+    width: 82VH;
+    background-color: #202020;
+    border-radius: 10px;
+    margin: 0.2rem;
+    top: 0px;
+    color: white;
+    height: 90vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.my-card:hover{
+    background-color:  #282828;
+}
+.mini-cards:hover{
+    background-color: #282828;
+}
+.down-body{
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height:60px;
+    width: 100vw;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 6px;
+}
+.logo-size{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.img_size_logo{
+    width: 20px;
+    height: 17px;
+    margin-right: 15px;
+}
+h5{
+    width: 270px;
+    height: 32px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+h5:hover{
+    background-color: #282828;
+    
+}
+.jawan-1{
+    margin-right: 15px;
+}
+.gap-between{
+    margin-bottom: 20px;
+}
+.edm,.dance,.malayalam,.discovery,.daily,.fav,.your,.liked,.create,.library,.search,.home{
+    opacity: 0.7;
+}
+.home:hover{
+    opacity: 1;
+}
+.search:hover{
+    opacity: 1;
+}
+.library:hover{
+    opacity: 1;
+}
+.create:hover{
+    opacity: 1;
+}
+.liked:hover{
+    opacity: 1;
+}
+.your:hover{
+    opacity: 1;
+}
+.fav:hover{
+    opacity: 1;
+}
+.daily:hover{
+    opacity: 1;
+}
+.discovery:hover{
+    opacity: 1;
+}
+.malayalam:hover{
+    opacity: 1;
+}
+.dance:hover{
+    opacity: 1;
+}
+.adm:hover{
+    opacity: 1;
+}
+.gap-betweenn{
+    margin-bottom: 20px;
+}
+.text-1{
+    color: white;
+    padding-left: 2px;
+    background-color: black;
+    border-radius: 6px;
+}
+.arrow-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.arrows-1{
+    width: 75px;
+    height: 28px;
+}
+.arrowss-1{
+    width: 90px;
+    height: 26px;
+}
+.raju-1{
+    margin-right: 6px;
+}
+.profile-1{
+    width: 85px;
+    height: 23px;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+}
+.mini-cards{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    margin-left: 50px ;
+    margin-top: 12px ;
+}
+.profile_size{
+    width: 30px;
+    height: 21px;
+    margin-left: 2px !important;
+}
+.good-mor{
+    margin-left: 50px;
+    margin-top: 22px;
+}
+.shows-you{
+    display: flex;
+    justify-content: space-between;
+}
+.good-1{
+    font-weight: 600;
+}
+.shows-1{
+    font-weight: 600;
+    font-size: x-large;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.mini-cardss{
+    width: 82px;
+    height: 70px;
+
+}
+.lan-1{
+    margin-left: 5px;
+    font-weight: 500;
+    margin-top: 19px;
+    font-size: large;
+    color: #e5e5e5;
+}
+.my-card{
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #303030;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 19px;
+}
+.big-card{
+    padding: 10px 10px;
+    width: 180px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: #303030;
+    border: none;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.big-1{
+    margin-top: 15px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.person-1{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-info{
+    font-size: small;
+    font-weight: 700;
+    
+}
+.person-infotech{
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: small;
+    font-weight: 200;
+}
+.player-1{
+    width: 300px;
+    height: 50px;
+}
+.dream-1{
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-top: -2px;
+}
+.dreams-1{
+    color: white;
+    font-size: small;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.move-1{
+    margin-left:40px ;
+}
+.kiran-2{
+    margin-left: 20px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.kiran-2:hover{
+    opacity: 1;
+    color: #ffffff;
+}
+.music-1{
+    width: 20px;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.musics-1{
+    width: 30px;
+    height: 23px;
+    margin-left: 20px;
+}
+.music-2{
+    width: 22px;
+    height: 20px;
+    margin-left: 20px;
+}
+.range-1{
+    color: white;
+    margin-top: 10px;
+}
+.ganni-1{
+    width: 250px;
+    height: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.gannii-1{
+    width: 180px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.time-1{
+    font-weight: 300;
+    font-size: small;
+}
+.symbole-1{
+    margin-top: 18px;
+    margin-left: -145px;
+}
+.frontining-1{
+    margin-top: 15px;
+    margin-right: 2px;
+}
+
+
+@media screen and (max-width:768px){
+    .client-view{
+        flex-direction: column;
+    }
+    .library,.home,.gap-betweenn,.arrow-line,.down-to-earth{
+        display: none;
+    }
+    .logo-size{
+        width: 120px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+    .gap-between{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .nav-body{
+        height: 20px;
+    }
+    .jilebhi-1{
+        margin-left: 10px;
+    }
+}
